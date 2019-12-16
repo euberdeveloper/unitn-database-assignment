@@ -67,4 +67,4 @@ I used __commitizen__ to commit responsively and __dree__ to generate the projec
 6. Execute `npm run serve:python` to generate the dist files and also start the python program
 7. Execute `npm run serve:java` to generate the dist files and also compile and run the java program. I will not work if you do not change the number of tuples in `generator/config.js`
 8. Execute `npm test` (after having transpiled it) to execute all the tests with all the test frameworks. You can execute the tests with a specific test framework by running `npm run test:test_framework`.
-9. Execute `npm run directory-tree` to generate the directory tree in the `tree` folder.
+9. Execute `npm run directory-tree` to generate the directory tree in the `doc/tree` folder.
