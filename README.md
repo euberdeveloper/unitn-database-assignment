@@ -1,9 +1,14 @@
+[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
+[![License](https://img.shields.io/npm/l/dree.svg)](https://github.com/euberdeveloper/dree/blob/master/LICENSE)
+
 # unitn-database-assignment
 A crazy way to do my database assignment. With javascript, python and Java
 
 ## What is the project
 
-This project was an UNITN's Database course's assignment. The assignment consisted in executing some queries with **python** or **Java** to a **PostgreSQL** database. The eleven queries where very easy and the most difficult ones were the third and the fourth, in which one million random tuples were to be inserted. Whereas the right way of doing the assignment was creating a Java or python file that generated the queries and the random tuples sent with already made library funcitons, I chose to make an experiment.
+This project was an UNITN's Database course's assignment. The assignment consisted in executing some queries with **python** or **Java** to a **PostgreSQL** database. The eleven queries where very easy and the most difficult ones were the third and the fourth, in which one million random tuples were to be inserted. Whereas the right way of doing the assignment was creating a Java or python file that generated the queries and the random tuples sent with already made library functions, I chose to make an experiment.
+
+The pdf assignment is [this](https://github.com/euberdeveloper/unitn-database-assignment/blob/master/doc/assignment/assignment.pdf).
 
 ## What did I do in the project
 
