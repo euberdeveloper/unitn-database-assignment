@@ -23,7 +23,8 @@
     "test": "npm run lint && npm run test:all",
     "nyc": "nyc --reporter=html --reporter=text --reporter=lcov npm run test:jest",
     "cover": "nyc report --reporter=text-lcov | coveralls",
-    "commit": "git-cz"
+    "commit": "git-cz",
+    "directory-tree": "dree parse . --dest doc/tree --options dree.config.json"
   },
   "author": "Euber Developer",
   "license": "ISC",
