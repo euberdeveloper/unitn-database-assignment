@@ -1,0 +1,1 @@
+module.exports = `SELECT id FROM "Professor";`;

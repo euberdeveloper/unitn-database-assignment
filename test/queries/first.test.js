@@ -1,0 +1,1 @@
+module.exports = `DROP TABLE IF EXISTS "Course";DROP TABLE IF EXISTS "Professor";`;

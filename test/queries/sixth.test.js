@@ -1,0 +1,1 @@
+module.exports = `UPDATE "Professor" SET height=200 WHERE height=185;`;

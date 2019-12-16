@@ -1,0 +1,47 @@
+{
+  "name": "database-assignment-3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "generator/index.js",
+  "scripts": {
+    "transpile": "node generator/index",
+    "start:python": "python dist/database.py",
+    "serve:python": "npm run transpile && npm run start:python",
+    "compile:java": "javac dist/Database.java -J-Xmx4000m",
+    "start:java": "cd dist && java -cp .:postgresql-42.2.8.jar Database",
+    "launch:java": "npm run compile:java && npm run start:java",
+    "serve:java": "npm run transpile && npm run compile:java && npm run start:java",
+    "serve": "npm run serve:python",
+    "start": "npm run start:python",
+    "lint": "eslint generator",
+    "test:mocha": "mocha test/mocha --reporter spec",
+    "test:jest": "jest --rootDir test/jest",
+    "test:ava": "ava test/ava/*test.js --verbose",
+    "test:tap": "tap test/tap --no-timeout --no-coverage",
+    "test:tape": "tape test/tape/*.test.js",
+    "test:all": "npm run test:mocha && npm run test:jest && npm run test:ava && npm run test:tap && npm run test:tape",
+    "test": "npm run lint && npm run test:all",
+    "commit": "git-cz"
+  },
+  "author": "Euber Developer",
+  "license": "ISC",
+  "dependencies": {
+    "dree": "^2.1.11"
+  },
+  "devDependencies": {
+    "ava": "^2.4.0",
+    "chai": "^4.2.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
+    "eslint": "^6.7.2",
+    "jest": "^24.9.0",
+    "mocha": "^6.2.2",
+    "tap": "^14.10.2",
+    "tape": "^4.11.0"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

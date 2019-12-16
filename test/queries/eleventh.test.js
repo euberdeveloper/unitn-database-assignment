@@ -1,0 +1,1 @@
+module.exports = `SELECT id,address FROM "Professor" WHERE height = 210;`;

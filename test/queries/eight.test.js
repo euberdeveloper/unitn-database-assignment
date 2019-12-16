@@ -1,0 +1,1 @@
+module.exports = `CREATE INDEX height ON "Professor" USING btree(height);`;

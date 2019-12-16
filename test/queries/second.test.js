@@ -1,0 +1,1 @@
+module.exports = `CREATE TABLE "Professor" (id int NOT NULL,name char(50) NOT NULL,address char(50) NOT NULL,age int NOT NULL,height float NOT NULL,PRIMARY KEY (id));CREATE TABLE "Course" (id char(25) NOT NULL,title char(50) NOT NULL,area char(30) NOT NULL,instructor int NOT NULL,PRIMARY KEY (id),FOREIGN KEY (instructor) REFERENCES "Professor"(id));`;
