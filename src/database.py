@@ -3,7 +3,7 @@ import time
 import psycopg2
 
 def get_connection():
-    return psycopg2.connect("dbname='db_232' user='db_232'" + "host='sci-didattica.unitn.it' password='Vivaintereacdc1!?'")
+    return psycopg2.connect("dbname='DB_NAME' user='DB_USER'" + "host='DB_HOST' password='DB_PASSWORD'")
 
 def query_1():
     conn = get_connection()

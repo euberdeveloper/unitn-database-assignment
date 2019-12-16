@@ -4,10 +4,10 @@ import java.sql.*;
 public class Database {
 		
 	public static void main(String[] args) throws SQLException {		
-		String urlString = "jdbc:postgresql://sci-didattica.unitn.it/db_231";
+		String urlString = "jdbc:postgresql://DB_HOST/DB_NAME";
 		Properties properties = new Properties();
-		properties.setProperty("user", "db_231");
-		properties.setProperty("password", "secret_231");
+		properties.setProperty("user", "DB_USER");
+		properties.setProperty("password", "DB_PASSWORD");
 		properties.setProperty("ssl", "false");
 		Connection connection = DriverManager.getConnection(urlString, properties);
 		Statement statement = connection.createStatement();
