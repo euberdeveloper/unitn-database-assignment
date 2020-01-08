@@ -14,6 +14,7 @@
     "serve": "npm run serve:python",
     "start": "npm run start:python",
     "lint": "eslint generator",
+    "lint:fix": "eslint generator --fix",
     "test:mocha": "mocha test/mocha --reporter spec",
     "test:jest": "jest --rootDir test/jest",
     "test:ava": "ava test/ava/*test.js --verbose",

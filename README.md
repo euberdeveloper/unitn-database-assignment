@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/euberdeveloper/unitn-database-assigment.svg?branch=master)](https://travis-ci.org/euberdeveloper/unitn-database-assigment)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 [![License](https://img.shields.io/npm/l/dree.svg)](https://github.com/euberdeveloper/dree/blob/master/LICENSE)
 
