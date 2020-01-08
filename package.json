@@ -22,7 +22,9 @@
     "test:all": "npm run test:mocha && npm run test:jest && npm run test:ava && npm run test:tap && npm run test:tape",
     "test": "npm run lint && npm run test:all",
     "nyc": "nyc --reporter=html --reporter=text --reporter=lcov npm run test:jest",
-    "cover": "nyc report --reporter=text-lcov | coveralls",
+    "cover:coveralls": "nyc report --extension=ts --reporter=text-lcov | coveralls",
+    "cover:codecov": "nyc report --extension=ts --reporter=text-lcov > coverage.lcov && codecov",
+    "cover": "npm run cover:coveralls && npm run cover:codecov",
     "commit": "git-cz",
     "directory-tree": "dree parse . --dest doc/tree --options dree.config.json"
   },
@@ -34,13 +36,14 @@
   "devDependencies": {
     "ava": "^2.4.0",
     "chai": "^4.2.0",
+    "codecov": "^3.6.1",
     "commitizen": "^4.0.3",
     "coveralls": "^3.0.9",
     "cz-conventional-changelog": "^3.0.2",
     "eslint": "^6.7.2",
     "jest": "^24.9.0",
     "mocha": "^6.2.2",
-    "nyc": "^14.1.1",
+    "nyc": "^15.0.0",
     "tap": "^14.10.2",
     "tape": "^4.11.0"
   },
