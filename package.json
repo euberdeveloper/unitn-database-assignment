@@ -4,7 +4,7 @@
   "description": "",
   "main": "generator/index.js",
   "scripts": {
-    "transpile": "node generator/index",
+    "transpile": "node generator/index --max-old-space-size=4096",
     "start:python": "python dist/database.py",
     "serve:python": "npm run transpile && npm run start:python",
     "compile:java": "javac dist/Database.java -J-Xmx4000m",
