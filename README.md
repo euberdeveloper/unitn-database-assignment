@@ -1,6 +1,10 @@
 [![Build Status](https://travis-ci.org/euberdeveloper/unitn-database-assigment.svg?branch=master)](https://travis-ci.org/euberdeveloper/unitn-database-assigment)
+[![Coverage Status](https://coveralls.io/repos/github/euberdeveloper/unitn-database-assignment/badge.svg?branch=master)](https://coveralls.io/github/euberdeveloper/unitn-database-assignment?branch=master)
+[![Codecov Status](https://codecov.io/gh/euberdeveloper/unitn-database-assignment/branch/master/graph/badge.svg)](https://codecov.io/gh/euberdeveloper/unitn-database-assignment)
+[![Known Vulnerabilities](https://snyk.io/test/github/euberdeveloper/unitn-database-assignment/badge.svg?targetFile=package.json)](https://snyk.io/test/github/euberdeveloper/unitn-database-assignment?targetFile=package.json)
+[![dependencies Status](https://david-dm.org/euberdeveloper/unitn-database-assignment/status.svg)](https://david-dm.org/euberdeveloper/unitn-database-assignment)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![License](https://img.shields.io/npm/l/dree.svg)](https://github.com/euberdeveloper/dree/blob/master/LICENSE)
+[![License](https://img.shields.io/npm/l/unitn-database-assignment.svg)](https://github.com/euberdeveloper/unitn-database-assignment/blob/master/LICENSE)
 
 # unitn-database-assignment
 A crazy way to do my database assignment. With javascript, python and Java
@@ -31,7 +35,7 @@ This was a bad idea because:
 
 I did it because:
 
-* This was an opportunity to use an npm module made by my self. I used __[dree](https://www.npmjs.com/package/dree)__ to scan all the python and Java files in the src directory.
+* This was an opportunity to use an npm module made by my self. I used __[unitn-database-assignment](https://www.npmjs.com/package/unitn-database-assignment)__ to scan all the python and Java files in the src directory.
 * Writing code to produce other code was funny.
 * I used three quite languages in a project.
 * I delivered my assignment late because my home network was quite slow in uploading the 215MB file.
@@ -61,7 +65,7 @@ I used as cover services:
 * __Coveralls__
 * __Codecov__
 
-I used __commitizen__ to commit responsively and __dree__ to generate the project tree.
+I used __commitizen__ to commit responsively and __unitn-database-assignment__ to generate the project tree.
 
 ## How to run it
 
@@ -77,7 +81,7 @@ I used __commitizen__ to commit responsively and __dree__ to generate the projec
 
 ## How is structured the project
 
-Made with **[dree](https://npmjs.com/package/dree)**.
+Made with **[unitn-database-assignment](https://npmjs.com/package/unitn-database-assignment)**.
 
 ```txt
 unitn-database-assignment
@@ -90,7 +94,7 @@ unitn-database-assignment
  │   │   └── assignment.pdf
  │   └─> tree
  │       └── tree.txt
- ├── dree.config.json
+ ├── unitn-database-assignment.config.json
  ├─> generator
  │   ├── config.js
  │   ├── index.js
