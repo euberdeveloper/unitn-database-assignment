@@ -76,6 +76,8 @@ I used __commitizen__ to commit responsively and __dree__ to generate the projec
 
 ## How is structured the project
 
+Made with **[dree](https://npmjs.com/package/dree)**.
+
 ```txt
 unitn-database-assignment
  ├── LICENSE
