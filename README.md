@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/euberdeveloper/unitn-database-assigment.svg?branch=master)](https://travis-ci.org/euberdeveloper/unitn-database-assigment)
+[![CircleCI](https://circleci.com/gh/euberdeveloper/unitn-database-assignment.svg?style=svg)](https://circleci.com/gh/euberdeveloper/unitn-database-assignment)
 [![Coverage Status](https://coveralls.io/repos/github/euberdeveloper/unitn-database-assignment/badge.svg?branch=master)](https://coveralls.io/github/euberdeveloper/unitn-database-assignment?branch=master)
 [![Codecov Status](https://codecov.io/gh/euberdeveloper/unitn-database-assignment/branch/master/graph/badge.svg)](https://codecov.io/gh/euberdeveloper/unitn-database-assignment)
 [![Known Vulnerabilities](https://snyk.io/test/github/euberdeveloper/unitn-database-assignment/badge.svg?targetFile=package.json)](https://snyk.io/test/github/euberdeveloper/unitn-database-assignment?targetFile=package.json)
