@@ -16,9 +16,9 @@ function createFile(path, text) {
     const onlyLastPart = path.slice(lastIndexOfSrc);
     const newPath = path.slice(0, lastIndexOfSrc) + onlyLastPart.replace(/src/g, 'dist');
     const distPath = newPath.slice(0, newPath.lastIndexOf('dist')) + 'dist';
-    /* instanbul ignore if */
+    /* istanbul ignore if */
     if (!fs.existsSync(distPath)) {
-        /* instanbul ignore next */
+        /* istanbul ignore next */
         fs.mkdirSync(distPath, { recursive: true });
     }
     fs.writeFileSync(newPath, text);
