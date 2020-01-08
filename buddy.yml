@@ -1,0 +1,13 @@
+- pipeline: "test"
+  trigger_mode: "MANUAL"
+  ref_name: "master"
+  actions:
+  - action: "Execute: npm test"
+    type: "BUILD"
+    docker_image_name: "library/node"
+    docker_image_tag: "6"
+    execute_commands:
+    - "npm install"
+    - "npm run transpile"
+    - "npm run lint"
+    - "npm test"
