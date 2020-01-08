@@ -4,7 +4,7 @@
 [![Known Vulnerabilities](https://snyk.io/test/github/euberdeveloper/unitn-database-assignment/badge.svg?targetFile=package.json)](https://snyk.io/test/github/euberdeveloper/unitn-database-assignment?targetFile=package.json)
 [![dependencies Status](https://david-dm.org/euberdeveloper/unitn-database-assignment/status.svg)](https://david-dm.org/euberdeveloper/unitn-database-assignment)
 [![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
-[![License](https://img.shields.io/npm/l/unitn-database-assignment.svg)](https://github.com/euberdeveloper/unitn-database-assignment/blob/master/LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://github.com/euberdeveloper/unitn-database-assignment/blob/master/LICENSE)
 
 # unitn-database-assignment
 A crazy way to do my database assignment. With javascript, python and Java
