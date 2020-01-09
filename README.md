@@ -82,7 +82,7 @@ I used __commitizen__ to commit responsively and __unitn-database-assignment__ t
 
 ## How is structured the project
 
-Made with **[unitn-database-assignment](https://npmjs.com/package/unitn-database-assignment)**.
+Made with **[dree](https://npmjs.com/package/dree)**.
 
 ```txt
 unitn-database-assignment
