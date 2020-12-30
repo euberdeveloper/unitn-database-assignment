@@ -1,7 +1,7 @@
 language: node_js
 node_js:
-  nodejs_version: "12"
-  nodejs_version: "14"
+  - nodejs_version: "12"
+  - nodejs_version: "14"
 
 # Install scripts. (runs after repo cloning)
 install:
